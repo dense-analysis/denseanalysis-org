@@ -1,6 +1,6 @@
-baseurl = "https://username.github.io"
+baseurl = "https://denseanalysis.org"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "Dense Analysis"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -12,11 +12,11 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  homeTitle = false
+  subtitle = "\"Dense Analysis trumps speculation\""
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/da-logo.png" # Expecting square dimensions
+  favicon = "img/da-favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -43,72 +43,37 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
+  # There are many built in options.
+  # See: themes/beautifulhugo/data/beautifulhugo/social.toml
+
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Some Person"
   website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
-  discord = "invite code (https://discord.gg/XXXXXXX)"
-  strava = "userid"
+  # email = "youremail@domain.com"
+  github = "dense-analysis"
+  # youtube = "user/username"
+  discord = "https://discord.gg/5zFD6pQxDk"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "Products"
+    url = "page/products/"
     weight = 1
+
+[[menu.main]]
+    identifier = "services"
+    name = "Services"
+    weight = 2
+
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    weight = 3
+
+[[menu.main]]
+    parent = "resources"
+    identifier = "blog"
+    name = "Blog"
 
 [[menu.main]]
     name = "About"
     url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+    weight = 4
