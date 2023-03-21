@@ -245,14 +245,18 @@ figure:not(.dark) img, img.white {
   width: 50px;
   margin-top: -25px;
 }
+
 .navbar-custom .avatar-container  .avatar-img-border {
+  /* EDIT: Re-position avatar. */
+  position: relative;
+  top: -24px;
+
   width: 100%;
   border-radius: 50%;
   margin-left: -50%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+  /* EDIT: box-shadow removed. */
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
@@ -260,10 +264,7 @@ figure:not(.dark) img, img.white {
   display: block;
 }
 
-.navbar-custom.top-nav-short .avatar-container{
-  opacity: 0;
-  visibility: hidden;
-}
+/* EDIT: Avatar is never hidden. (CSS rule removed) */
 
 .navbar-custom.top-nav-expanded .avatar-container  {
   display: none;
@@ -277,9 +278,8 @@ figure:not(.dark) img, img.white {
 
   .navbar-custom .avatar-container  .avatar-img-border {
     width: 100%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+
+    /* EDIT: box-shadow removed */
   }
 
   .navbar-custom .avatar-container  .avatar-img {
@@ -551,6 +551,8 @@ footer .theme-by {
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
+  /* EDIT: Align intro to center. */
+  text-align: center;
 }
 .intro-header.big-img {
   background: no-repeat center center;
@@ -598,11 +600,13 @@ footer .theme-by {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  /* EDIT: Font-size is smaller, and style is italic */
+  font-size: 22px;
+  font-style: italic;
+
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
   margin: 10px 0 0;
 }
 .intro-header .post-heading .post-subheading {
@@ -680,6 +684,11 @@ footer .theme-by {
   }
   .header-section.has-img .big-img {
     margin-bottom: 0;
+  }
+
+  /* EDIT: Hide the org name on smaller screens. */
+  .navbar-brand {
+    display: none;
   }
 }
 @media only screen and (max-width: 325px) {
