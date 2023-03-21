@@ -12,7 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  homeTitle = false
+  homeTitle = "Dense Analysis"
   subtitle = "\"Dense Analysis trumps speculation\""
   mainSections = ["post","posts"]
   logo = "img/da-logo.png" # Expecting square dimensions
@@ -20,11 +20,11 @@ pygmentsCodefencesGuessSyntax = true
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   wordCount = true
   useHLJS = true
-  socialShare = true
+  socialShare = false
   delayDisqus = true
   showRelatedPosts = true
 #  hideAuthor = true
@@ -54,9 +54,14 @@ pygmentsCodefencesGuessSyntax = true
   discord = "https://discord.gg/5zFD6pQxDk"
 
 [[menu.main]]
+    identifier = "products"
     name = "Products"
-    url = "page/products/"
     weight = 1
+
+[[menu.main]]
+    parent = "products"
+    name = "DAFT"
+    url = "products/daft/"
 
 [[menu.main]]
     identifier = "services"
@@ -74,6 +79,19 @@ pygmentsCodefencesGuessSyntax = true
     name = "Blog"
 
 [[menu.main]]
+    identifier = "about"
     name = "About"
-    url = "page/about/"
     weight = 4
+
+
+[[menu.main]]
+    parent = "about"
+    name = "Org"
+    url = "about/organization/"
+    weight = 1
+
+[[menu.main]]
+    parent = "about"
+    name = "Why FOSS?"
+    url = "about/foss/"
+    weight = 2
