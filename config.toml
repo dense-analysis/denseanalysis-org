@@ -69,14 +69,26 @@ pygmentsCodefencesGuessSyntax = true
     weight = 2
 
 [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    weight = 3
+    parent = "services"
+    name = "Speaking"
+    url = "services/speaking/"
+    weight = 1
 
 [[menu.main]]
-    parent = "resources"
-    identifier = "blog"
-    name = "Blog"
+    parent = "services"
+    name = "Community"
+    url = "services/community/"
+    weight = 2
+
+# [[menu.main]]
+#     identifier = "resources"
+#     name = "Resources"
+#     weight = 3
+#
+# [[menu.main]]
+#     parent = "resources"
+#     identifier = "blog"
+#     name = "Blog"
 
 [[menu.main]]
     identifier = "about"
