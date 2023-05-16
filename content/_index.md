@@ -5,7 +5,7 @@ informed decisions about their lives and the world around them. We make it a
 little bit easier to understand the complexity of the world around us through
 tooling and education.
 
-We invite you to join us in our mission to make the world a better place through
+We invite you to join us on our mission to make the world a better place through
 technology. Together, we can make a difference, whether that's by writing code
 or just by speaking our minds.
 
