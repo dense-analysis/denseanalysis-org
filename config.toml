@@ -54,14 +54,14 @@ pygmentsCodefencesGuessSyntax = true
   discord = "https://discord.gg/5zFD6pQxDk"
 
 [[menu.main]]
-    identifier = "products"
-    name = "Products"
+    identifier = "projects"
+    name = "Projects"
     weight = 1
 
 [[menu.main]]
-    parent = "products"
+    parent = "projects"
     name = "DAFT"
-    url = "products/daft/"
+    url = "projects/daft/"
 
 [[menu.main]]
     identifier = "services"
