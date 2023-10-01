@@ -18,3 +18,9 @@ Once tools are installed, simply run `hugo server` to see a live development
 version of the website. You can run `hugo` to build a `public` directory you
 can `rsync` or otherwise copy and serve via nginx or Apache. See the rest of the
 [Hugo documentation] for knowledge on how to build sites with Hugo.
+
+For example, you might `rsync` the files like so:
+
+```
+rsync -auv public/ user@hostname:~/denseanalysis-org/
+```
