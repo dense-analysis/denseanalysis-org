@@ -34,7 +34,7 @@ initiatives, growing its projects, and general leadership. The Dense Analysis
 President is responsible for seeing that every organization member and volunteer
 is able to function to the best of their ability.
 
-As Treasurer, Andrew is responsible for fulfilling the organizations tax
+As Treasurer, Andrew is responsible for fulfilling the organization's tax
 obligations, managing any future donations or other money the organization may
 receive, ensuring budgets are allocated appropriately, and in general oversight
 of all financial matters.
