@@ -21,10 +21,15 @@ but we believe once a user is familiar with it, they won't want to use anything
 else.
 
 For the best experience in Vim with regards to font support and ease of use, you
-may prefer to use GVim which can be downloaded from [the Vim
+may prefer to use GVim, which can be downloaded from [the Vim
 page](https://www.vim.org/download.php) or installed with your package manager
-of choice. For a graphical Neovim experience, you may prefer to use
-[Neovide](https://neovide.dev/).
+of choice. On macOS, the best experience may be provided by
+[MacVim](https://macvim.org/).
+
+For a graphical Neovim experience, you may prefer to use
+[Neovide](https://neovide.dev/). Note that Dense Analysis does not yet consider
+Neovim a stable development environment, but the improved feature set can
+outweigh the cost of adjusting to subtle breaking changes.
 
 ## ALE
 
