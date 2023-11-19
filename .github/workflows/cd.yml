@@ -24,4 +24,4 @@ jobs:
       # Run Hugo on the server to build the site
       - name: Build Site with Hugo
         run: |
-          ssh web@w0rp.com "cd ~/denseanalysis-org && git pull && docker run -v $(pwd):/workdir $(docker build -q .) hugo"
+          ssh web@w0rp.com "cd ~/denseanalysis-org && ./deploy.sh"

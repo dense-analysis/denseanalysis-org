@@ -8,7 +8,6 @@ services:
     volumes:
       - ./content:/workdir/content
       - ./layouts:/workdir/layouts
-      - ./resources:/workdir/resources
       - ./static:/workdir/static
       - ./themes:/workdir/themes
       - ./config.toml:/workdir/config.toml
