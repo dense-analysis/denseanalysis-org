@@ -21,7 +21,7 @@ jobs:
       - name: Setup SSH connection
         uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ${{ secrets.DENSEBOT_PRIVATE_SSH_KEY }}
 
       # Run Hugo on the server to build the site
       - name: Build Site with Hugo
