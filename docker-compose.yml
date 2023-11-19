@@ -1,0 +1,11 @@
+---
+
+services:
+  site:
+    build: .
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/workdir
+    working_dir: /workdir
+    command: hugo serve --bind 0.0.0.0
