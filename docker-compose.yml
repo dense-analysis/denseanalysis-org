@@ -6,6 +6,11 @@ services:
     ports:
       - "1313:1313"
     volumes:
-      - .:/workdir
+      - ./content:/workdir/content
+      - ./layouts:/workdir/layouts
+      - ./resources:/workdir/resources
+      - ./static:/workdir/static
+      - ./themes:/workdir/themes
+      - ./config.toml:/workdir/config.toml
     working_dir: /workdir
     command: hugo serve --bind 0.0.0.0
