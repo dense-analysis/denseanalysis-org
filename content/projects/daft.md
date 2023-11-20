@@ -44,7 +44,8 @@ quickly. We highly recommend using ALE work working on code.
 ## Neural
 
 [Neural](https://github.com/dense-analysis/neural) is Dense Analysis' plugin for
-Vim and Neovim for integrating the editing experience with [large language
-models](https://en.wikipedia.org/wiki/Large_language_model) such as OpenAI's
-GPT, for code generation and more. Neural helps users automate work tasks, and
-works well in combination with ALE for spotting problems in generated code.
+Vim and Neovim for integrating the editing experience with [Large Language
+Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) such as
+OpenAI's GPT, for code generation and more. Neural helps users automate work
+tasks, and works well in combination with ALE for spotting problems in generated
+code.
