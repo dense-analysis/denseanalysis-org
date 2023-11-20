@@ -3,6 +3,9 @@ name: Deploy Website
 
 on:  # yamllint disable-line rule:truthy
   push:
+    paths-ignore:
+      - README.md
+      - LICENSE
     branches:
       - main
 
