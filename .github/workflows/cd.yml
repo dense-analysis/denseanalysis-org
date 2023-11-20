@@ -10,18 +10,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Check out the code
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # Set up SSH
-      # This is a GPT hallucination, probably.
-      - name: Setup SSH connection
-        uses: webfactory/ssh-agent@v0.5.0
-        with:
-          ssh-private-key: ${{ secrets.DENSEBOT_PRIVATE_SSH_KEY }}
-
       # Run Hugo on the server to build the site
       - name: Build Site with Hugo
-        run: |
-          ssh web@w0rp.com "cd ~/denseanalysis-org && ./deploy.sh"
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USERNAME }}
+          key: ${{ secrets.DENSEBOT_PRIVATE_SSH_KEY }}
+          script_stop: true
+          script: ~/denseanalysis-org/deploy.sh
