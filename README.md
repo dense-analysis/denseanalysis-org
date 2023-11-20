@@ -9,18 +9,15 @@ those who need it.
 
 ## Development
 
-[Install Hugo](https://gohugo.io/installation/) via any means appropriate for
-your system. There are packages available for every major Linux distribution,
-for example. Make sure you have [git](https://git-scm.com/) and
-[Git LFS](https://git-lfs.com/) installed.
-
-Once tools are installed, simply run `hugo server` to see a live development
-version of the website. You can run `hugo` to build a `public` directory you
-can `rsync` or otherwise copy and serve via nginx or Apache. See the rest of the
-[Hugo documentation] for knowledge on how to build sites with Hugo.
-
-For example, you might `rsync` the files like so:
+Use Docker to run the site with [Hugo](https://gohugo.io/installation/).
+[Docker Desktop](https://www.docker.com/products/docker-desktop/) is the easiest
+to use on all platforms.
 
 ```
-rsync -auv public/ user@hostname:~/denseanalysis-org/
+docker compose up
 ```
+
+The site will be built into the `public` directory, which can be served via
+nginx or Apache. See the rest of the
+[Hugo documentation](https://gohugo.io/documentation/)
+for knowledge on how to build sites with Hugo.
