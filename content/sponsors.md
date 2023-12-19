@@ -3,9 +3,16 @@ title: Sponsors
 subtitle: Thanks to our sponsors!
 ---
 
-Those who donate [GitHub Sponsors](https://github.com/sponsors/dense-analysis)
-are featured here on this page. You can donate to have your logo or name
-featured here.
+You may donate to support Dense Analysis and the work we do via sponsorship
+sites.
+
+* [GitHub Sponsors](https://github.com/sponsors/dense-analysis)
+* [Patreon](https://www.patreon.com/denseanalysis)
+
+We offer the following sponsorship benefits.
+
+* **Silver Sponsors** cans have their names featured below.
+* **Gold Sponsors** can have their logos featured on this page.
 
 ---
 

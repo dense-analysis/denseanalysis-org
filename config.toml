@@ -19,7 +19,7 @@ pygmentsCodefencesGuessSyntax = true
   favicon = "img/da-favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
+  rss = false
   comments = false
   readingTime = true
   wordCount = true
@@ -48,9 +48,9 @@ pygmentsCodefencesGuessSyntax = true
 
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   website = "yourwebsite.com"
-  # email = "youremail@domain.com"
+  email = "contact@denseanalysis.org"
   github = "dense-analysis"
-  # youtube = "user/username"
+  youtube = "@DenseAnalysis"
   discord = "https://discord.gg/5zFD6pQxDk"
 
 [[menu.main]]
@@ -98,16 +98,15 @@ pygmentsCodefencesGuessSyntax = true
 #     name = "Blog"
 
 [[menu.main]]
-    identifier = "sponsors"
-    name = "Sponsors"
-    url = "sponsors/"
-    weight = 3
-
-[[menu.main]]
     identifier = "about"
     name = "About"
     weight = 4
 
+[[menu.main]]
+    identifier = "sponsor"
+    name = "❤ Sponsor"
+    url = "sponsors/"
+    weight = 5
 
 [[menu.main]]
     parent = "about"
