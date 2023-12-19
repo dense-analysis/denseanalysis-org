@@ -98,6 +98,12 @@ pygmentsCodefencesGuessSyntax = true
 #     name = "Blog"
 
 [[menu.main]]
+    identifier = "sponsors"
+    name = "Sponsors"
+    url = "sponsors/"
+    weight = 3
+
+[[menu.main]]
     identifier = "about"
     name = "About"
     weight = 4
