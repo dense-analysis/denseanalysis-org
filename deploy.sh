@@ -9,7 +9,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 git pull
 # Update submodules such as the template.
 git submodule update --init
-# Build the Hugo image from scratch.
-image=$(docker build -q .)
-# Run Hugo.
-docker run -v "$(pwd)":/workdir "$image" hugo
+# Run Hugo using the image
+docker compose run site 'hugo'
