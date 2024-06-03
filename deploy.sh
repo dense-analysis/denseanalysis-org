@@ -10,4 +10,4 @@ git pull
 # Update submodules such as the template.
 git submodule update --init
 # Run Hugo using the image
-docker compose run site 'hugo'
+docker compose run -v "$(pwd)/public":/workdir/public site 'hugo'
