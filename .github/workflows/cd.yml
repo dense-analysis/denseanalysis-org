@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.DEPLOY_USERNAME }}
           key: ${{ secrets.DENSEBOT_PRIVATE_SSH_KEY }}
           script_stop: true
-          script: ~/denseanalysis-org/deploy.sh
+          script: cd ~/denseanalysis-org && ./deploy.sh
