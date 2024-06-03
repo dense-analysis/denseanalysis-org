@@ -43,7 +43,7 @@ In short: Andrew dedicates his efforts to handling key organizational matters to
 ensure that every Dense Analysis member and volunteer is not encumbered by legal
 roadblocks, technical limitations, or any other encumbrance.
 
-### David Berry - Vice President
+### David Berry - First Vice President
 
 An IT professional of many years, David Berry's expertise lies primarily in
 quality assurance and automation. David serves as an important sounding-board to
@@ -51,12 +51,12 @@ Andrew's vision, and helps shape the organization's roadmap for the future.
 
 #### Function
 
-As Vice-President, David assumes all duties of the President when he is not
-able, due to severe illness or injury. In the event of the untimely loss of the
-President, David will serve all functions of the President, until a new
+As First Vice President, David assumes all duties of the President when he is
+not able, due to severe illness or injury. In the event of the untimely loss of
+the President, David will serve all functions of the President, until a new
 President can be appointed.
 
-### Georgi Angelchev - Secretary
+### Georgi Angelchev - Second Vice President
 
 Georgi serves as a primary contributor to Dense Analysis' software projects,
 brand, and initiatives. Georgi pulls from past experience as an IT startup
@@ -67,11 +67,12 @@ IT business and fills in organizational gaps.
 
 #### Function
 
-As Secretary, Georgi acts as the organization's primary record keeper. Any and
-all matters relating to the organization which require documentation are his
-primary responsibility.
+As Second Vice President, Georgi assumes all duties of the President when
+neither the President or Vice President are able. Georgi is firmly embedded as a
+key member of the board essential to the future vision of what the organization
+aims to achieve.
 
-### Oliver Taylor-Knight - Director
+### Oliver Taylor-Knight - Secretary
 
 Oliver acts as an adviser to the Dense Analysis board. Pulling from experience
 in IT support, Oliver brings a human element to the board, and a much-needed
@@ -79,6 +80,6 @@ difference of perspective.
 
 #### Function
 
-Oliver serves as a Director without title, enabling him to vote on matters of
-the Board as any other director, without needing to assume essential roles that
-would divert time away from his family life.
+As Secretary, Oliver acts as the organization's primary record keeper. Any and
+all matters relating to the organization which require documentation are his
+primary responsibility.
