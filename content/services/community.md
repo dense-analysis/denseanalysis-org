@@ -1,6 +1,6 @@
 ---
 title: Community
-subtitle: Community events and more
+subtitle: Community events and more!
 ---
 
 Dense Analysis is run by qualified engineers with experience in running
