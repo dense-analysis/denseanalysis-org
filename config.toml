@@ -116,6 +116,12 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "about"
+    name = "Contact"
+    url = "about/contact/"
+    weight = 2
+
+[[menu.main]]
+    parent = "about"
     name = "Why FOSS?"
     url = "about/foss/"
-    weight = 2
+    weight = 3
