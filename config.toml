@@ -103,10 +103,16 @@ pygmentsCodefencesGuessSyntax = true
     weight = 4
 
 [[menu.main]]
+    identifier = "portal"
+    name = "🔗 Portal"
+    url = "https://dense-analysis.notion.site/Dense-Analysis-Education-Portal-3bf400d2c185412d8a4ff514207e82d0"
+    weight = 5
+
+[[menu.main]]
     identifier = "sponsor"
     name = "❤ Sponsor"
     url = "sponsors/"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     parent = "about"
