@@ -53,6 +53,7 @@ pygmentsCodefencesGuessSyntax = true
   youtube = "@DenseAnalysis"
   discord = "https://discord.gg/5zFD6pQxDk"
 
+# 1. Projects links
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
@@ -70,6 +71,7 @@ pygmentsCodefencesGuessSyntax = true
     url = "projects/densechat/"
     weight = 2
 
+# 2. Services links
 [[menu.main]]
     identifier = "services"
     name = "Services"
@@ -87,32 +89,31 @@ pygmentsCodefencesGuessSyntax = true
     url = "services/community/"
     weight = 2
 
-# [[menu.main]]
-#     identifier = "resources"
-#     name = "Resources"
-#     weight = 3
-#
-# [[menu.main]]
-#     parent = "resources"
-#     identifier = "blog"
-#     name = "Blog"
+# 3. Resources Links
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    weight = 3
 
+[[menu.main]]
+    parent = "resources"
+    identifier = "blog"
+    name = "Blog"
+    url = "blog"
+    weight = 1
+
+[[menu.main]]
+    parent = "resources"
+    identifier = "portal"
+    name = "🔗 Portal"
+    url = "https://dense-analysis.notion.site/Dense-Analysis-Education-Portal-3bf400d2c185412d8a4ff514207e82d0"
+    weight = 2
+
+# 4. About Links
 [[menu.main]]
     identifier = "about"
     name = "About"
     weight = 4
-
-[[menu.main]]
-    identifier = "portal"
-    name = "🔗 Portal"
-    url = "https://dense-analysis.notion.site/Dense-Analysis-Education-Portal-3bf400d2c185412d8a4ff514207e82d0"
-    weight = 5
-
-[[menu.main]]
-    identifier = "sponsor"
-    name = "❤ Sponsor"
-    url = "sponsors/"
-    weight = 6
 
 [[menu.main]]
     parent = "about"
@@ -131,3 +132,10 @@ pygmentsCodefencesGuessSyntax = true
     name = "Why FOSS?"
     url = "about/foss/"
     weight = 3
+
+# 5. Sponsor Links
+[[menu.main]]
+    identifier = "sponsor"
+    name = "❤ Sponsor"
+    url = "sponsors/"
+    weight = 5
