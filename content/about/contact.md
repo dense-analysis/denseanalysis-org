@@ -30,10 +30,3 @@ data analysis.
 For media inquiries, please contact us at media@denseanalysis.org. We are
 available for interviews, quotes, and other media requests related to our
 research and publications.
-
-## Stay Connected
-
-To stay updated on our latest research and publications, you can follow us in
-the Fediverse.
-
-* Andrew Wray - President & Treasurer -- [@andrew@social.denseanalysis.org](https://social.denseanalysis.org/@andrew)
