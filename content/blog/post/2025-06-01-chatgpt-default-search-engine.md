@@ -12,6 +12,12 @@ Dense Analysis is back with a short tip for anyone who wants to launch ChatGPT s
 
 If you use a Chromium-based browser like Chrome, Edge, Brave, or Thorium, you can set up ChatGPT as a custom search engine. This means that anything you type into the address bar will open a ChatGPT conversation using your text as the prompt.
 
+## Video Tutorial
+
+You can review our video tutorial, or follow the steps documented below.
+
+{{< youtube EDuMVwKUEA4 >}}
+
 ## 1. Open Search Engine Settings
 
 * Open the browser settings menu.
