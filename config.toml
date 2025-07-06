@@ -65,12 +65,6 @@ pygmentsCodefencesGuessSyntax = true
     url = "projects/daft/"
     weight = 1
 
-[[menu.main]]
-    parent = "projects"
-    name = "DenseChat"
-    url = "projects/densechat/"
-    weight = 2
-
 # 2. Services links
 [[menu.main]]
     identifier = "services"
