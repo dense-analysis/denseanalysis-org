@@ -27,7 +27,7 @@ loses relevance to the general public, any capable person can take the source
 code and modify it to function as they see fit, and the software can be
 maintained in this manner _in perpetuity_.
 
----
+## Further Reading
 
 We recommend as further reading the GNU Project's page ["What is Free
 Software."](https://www.gnu.org/philosophy/free-sw.html)

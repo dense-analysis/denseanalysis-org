@@ -3,6 +3,8 @@ title: Community
 subtitle: Community events and more!
 ---
 
+## Public Events
+
 Dense Analysis is run by qualified engineers with experience in running
 developer "hackathons," public events, and much more. We are especially
 interested in running events for promoting free software, and for showcasing and

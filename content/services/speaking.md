@@ -3,6 +3,8 @@ title: Speaking
 subtitle: Hear from qualified experts
 ---
 
+## Public Speaking
+
 Do you need someone to speak at a conference about free software? Are you
 looking for someone to speak at a local event? Dense Analysis is run by
 qualified engineers with experience in public speaking. We are especially

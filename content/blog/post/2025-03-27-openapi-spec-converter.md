@@ -18,6 +18,8 @@ Hub](https://hub.docker.com/r/denseanalysis/openapi-spec-converter),
 `openapi-spec-converter` makes it easy for developers to standardize and migrate
 their API specifications with minimal effort.
 
+## Instructions
+
 With a simple command, users can convert their JSON and YAML-based
 specifications:
 
@@ -31,6 +33,8 @@ supporting conversions to **Swagger (`swagger`)**, **OpenAPI 3.0 (`3.0`)**, and
 
 YAML or JSON output can be specified by setting `-f yaml` or `-f json`. By
 default the converter will output JSON.
+
+## Contributing
 
 `openapi-spec-converter` is part of Dense Analysis’s commitment to improving
 developer workflows and fostering inter-operability in API development.

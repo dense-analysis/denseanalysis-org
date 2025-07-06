@@ -14,6 +14,8 @@ We offer the following sponsorship benefits.
 * **Silver Sponsors** cans have their names featured below.
 * **Gold Sponsors** can have their logos featured on this page.
 
----
+## Current Sponsors
+
+_There is no one here! You could be the first!_
 
 _This page will be updated monthly._

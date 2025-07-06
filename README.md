@@ -1,10 +1,10 @@
-# denseanalyis.org
+# denseanalysis.org
 
 The Dense Analysis website built with [Hugo](https://gohugo.io/) to generate the
 entire site as static content. The site is served as static content to keep
 maintenance costs low, to improve performance, and to increase security.
 
-This project uses an AGPL licence to ensure that it will always be available for
+This project uses an AGPL license to ensure that it will always be available for
 those who need it.
 
 ## Development
@@ -18,10 +18,19 @@ git submodule update --init
 docker compose up
 ```
 
+The site will immediately start and you can view it at http://localhost:1313
+
+You can validate pages via the `./validate-path.sh` script by passing in a path
+to a page or a file path in the `content/` directory.
+
 The site will be built into the `public` directory, which can be served via
 nginx or Apache. See the rest of the
 [Hugo documentation](https://gohugo.io/documentation/)
 for knowledge on how to build sites with Hugo.
+
+You can validate pages via the `./validate-path.sh` script by passing in a path
+to a page or a file path in the `content/` directory. Files will be pulled in
+from the `public` directory for validation.
 
 ## Deployment
 
