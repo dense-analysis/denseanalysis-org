@@ -19,5 +19,6 @@ jobs:
             hugomods/hugo:reg-0.147.9 hugo
       - name: Validate pages
         run: |
-          find content -name '*.md' -print0 \
-          | xargs -0 -n1 ./validate-page.sh
+          find content -name '*.md' \
+          -exec printf 'Checking %s\n' {} \; \
+          -exec ./validate-page.sh {} \;
