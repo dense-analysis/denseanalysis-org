@@ -10,8 +10,26 @@ on:  # yamllint disable-line rule:truthy
       - main
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Build site
+        run: |
+          docker run --rm \
+            -v "$PWD":/src \
+            -w /src \
+            hugomods/hugo:reg-0.147.9 hugo
+      - name: Validate pages
+        run: |
+          find content -name '*.md' \
+          -exec printf 'Checking %s\n' {} \; \
+          -exec ./validate-page.sh {} \;
   deploy:
     runs-on: ubuntu-latest
+    needs: validate
     steps:
       # Run Hugo on the server to build the site
       - name: Build Site with Hugo

@@ -1,0 +1,24 @@
+---
+name: Validate Site
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Build site
+        run: |
+          docker run --rm \
+            -v "$PWD":/src \
+            -w /src \
+            hugomods/hugo:reg-0.147.9 hugo
+      - name: Validate pages
+        run: |
+          find content -name '*.md' \
+          -exec printf 'Checking %s\n' {} \; \
+          -exec ./validate-page.sh {} \;

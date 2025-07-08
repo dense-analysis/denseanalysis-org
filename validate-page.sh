@@ -12,8 +12,11 @@ path=$1
 # Collapse multiple slashes to 1
 path=$(echo "$path" | sed -E 's#/+#/#g')
 
+# Remove replace _index.md paths with the path that will lead to the index.
+if [[ $path == */_index.md ]]; then
+    path=${path%/_index.md}
 # Remove .md from paths.
-if [[ $path == *.md ]]; then
+elif [[ $path == *.md ]]; then
     path=${path%.md}
 fi
 
