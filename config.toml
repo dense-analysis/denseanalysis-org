@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
-[Params]
+[params]
   homeTitle = "Dense Analysis"
   subtitle = "\"Dense Analysis trumps speculation\""
   mainSections = ["post","posts"]
@@ -42,12 +42,10 @@ pygmentsCodefencesGuessSyntax = true
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
-[Author]
-  # There are many built in options.
-  # See: themes/beautifulhugo/data/beautifulhugo/social.toml
-
+[params.author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  website = "yourwebsite.com"
+  name = "Andrew Wray"
+  website = "denseanalysis.org"
   email = "contact@denseanalysis.org"
   github = "dense-analysis"
   youtube = "@DenseAnalysis"

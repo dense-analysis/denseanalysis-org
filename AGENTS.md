@@ -12,13 +12,14 @@ Set up the project with the templates for development site like so:
 
 ```sh
 git submodule update --init
+go install github.com/gohugoio/hugo@latest
 ```
 
 You can run Hugo to build the HTML and other content for the site to test
 changes like so:
 
 ```
-docker compose run --remove-orphans site hugo
+hugo
 ```
 
 With Docker compose running validate pages rendered with the HTML validator for

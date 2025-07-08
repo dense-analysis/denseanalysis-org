@@ -3,7 +3,7 @@
 services:
   site:
     container_name: '${COMPOSE_PROJECT_NAME}-site'
-    image: hugomods/hugo:reg-0.126.0
+    image: hugomods/hugo:reg-0.147.9
     ports:
       - "1313:1313"
     volumes:
