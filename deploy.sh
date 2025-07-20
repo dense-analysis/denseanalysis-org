@@ -6,5 +6,7 @@ set -eu
 git pull
 # Update submodules such as the template.
 git submodule update --init
-# Run Hugo using the image
-docker compose run -v "$(pwd)/public":/workdir/public site 'hugo'
+# Run Hugo using the image. Extra files in `public/` will be removed.
+docker compose run --remove-orphans --rm \
+    -v "$(pwd)/public":/workdir/public site \
+    hugo --cleanDestinationDir
