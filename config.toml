@@ -97,8 +97,8 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "resources"
     identifier = "portal"
-    name = "🔗 Portal"
-    url = "https://dense-analysis.notion.site/Dense-Analysis-Education-Portal-3bf400d2c185412d8a4ff514207e82d0"
+    name = "Education Portal"
+    url = "portal/"
     weight = 2
 
 # 4. About Links

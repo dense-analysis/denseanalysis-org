@@ -66,10 +66,8 @@
                   <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
                 {{ end }}
               {{ end }}
-              {{ if ne .Type "post" }}
-                {{ if not .IsHome }}
-                  <hr class="small">
-                {{ end }}
+              {{ if and $subtitle (ne .Type "post") (not .IsHome) }}
+                <hr class="small">
               {{ end }}
               {{ if $subtitle }}
                 {{ if eq .Type "page" }}
